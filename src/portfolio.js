@@ -97,10 +97,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
+    
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -109,22 +106,16 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "MongoDb",
       fontAwesomeClassname: "fas fa-database"
     },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
+  
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-    // {
-    //   skillName: "python",
-    //   fontAwesomeClassname: "fab fa-python"
-    // },
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
+    {
+      skillName: "React Native",
+      fontAwesomeClassname: "fas fa-react"
+    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -240,6 +231,18 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://mypos-ruby.vercel.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/quiz Logo.png"),
+      projectName: "Live Quiz ",
+      projectDesc: "Real Time Quiz Web",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://muhammadsiddiquequiz.vercel.app"
         }
         //  you can add extra buttons here.
       ]
