@@ -248,6 +248,30 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/Dictionary Logo.png"),
+      projectName: "Dictionary",
+      projectDesc: "Search and Understand",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://msiddiquedictionary.vercel.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/qr code logo.png"),
+      projectName: "Qr Code Generator",
+      projectDesc: "Make your Qr Code",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://qrcodegenerator-chi-six.vercel.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/bookstorelogo.jpg"),
       projectName: "Noorani Book Store",
       projectDesc: "An Online Book Store",
@@ -266,6 +290,17 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://siddique145.github.io/All-Pakistan-News-App/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/portfolio msdev.png"),
+      projectName: "MS-Dev Portfolio Web",
+      projectDesc: "Visit and Explore",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://msdev-beta.vercel.app/"
         }
       ]
     },
